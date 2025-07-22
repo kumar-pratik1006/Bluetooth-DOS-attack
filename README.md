@@ -1,3 +1,8 @@
+🧠 Remember 
+✅ Target id or mac > {ID}
+Packages size > 600
+Threads count > { 1 to 100 }
+---------------------------------------------
 # Bluetooth-DOS-attack
 This program will never allow any bluetooth device to connect by performing DOS attack on it. 💻
 
@@ -17,63 +22,9 @@ This script uses command-line Bluetooth tools (`l2ping`, etc.) to simulate a DoS
 
 ---
 
-## 🚀 Features
-
-- Easy-to-use command-line tool.
-- Floods target device with continuous `l2ping` packets.
-- Can be stopped anytime manually.
-- Minimal setup needed.
-
----
-
-## 🛠️ Requirements
-
-- Linux OS (preferably Kali Linux or Ubuntu)
-- Python 3.x
-- `l2ping` tool (usually comes with `bluez` package)
-
-### Install dependencies:
-```bash
-sudo apt update
-sudo apt install bluez python3
-
-⚙️ Usage
-
-1. Clone the repository:
-
-git clone https://github.com/kumar-pratik1006/Bluetooth-DOS-attack.git
-cd Bluetooth-DOS-attack
-
-
-2. Run the Python script:
-
-sudo python3 bluetooth_dos.py
-
-
-3. Enter the target device’s Bluetooth MAC address when prompted.
-
-
-
-> ⚠️ Run with sudo for Bluetooth tools to work correctly.
-
-
-
-
----
-
-🧪 Example MAC Address
-
-Target MAC: AA:BB:CC:DD:EE:FF
-
-Make sure the target device is discoverable.
-
-
----
-
 🔐 Legal Notice
 
 This tool is intended for penetration testing and security research. The author is not responsible for any misuse or damage caused by this tool. Always ensure you have explicit permission before testing any network or device.
-
 
 ---
 
